@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:regular,700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="icon.png">
+	<title>SaulDesign</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="img/logo.svg" alt="logo">
+				</div>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a data-goto=".main" href="#" class="menu__link">Home</a>
+						</li>
+						<li class="menu__item">
+							<a data-goto=".about" href="#" class="menu__link">About Me</a>
+						</li>
+						<li class="menu__item">
+							<a data-goto=".contact" href="#" class="menu__link">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__container">
+					<div class="main__content">
+						<h1 class="main__title title">CREATIVE UI <span>DESIGNER</span></h1>
+						<div class="main__buttons">
+							<a href="#" class="main__hire-button button">Hire me</a>
+							<a href="#" class="main__download-button button button_dark"><span>Download CV</span></a>
+						</div>
+					</div>
+				<div class="main__image">
+					<img src="img/main/image.svg" alt="image">
+				</div>
+			</div>
+			</section>
+			<section class="page__about about">
+				<div class="about__container">
+					<div class="about__content">
+						<h2 class="about__title title title_small">About <span>me</span></h2>
+						<div class="about__text text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Nunc vulputate libero et velit interdum, ac aliquet odio mattis. 
+								Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+								Curabitur tempus urna at turpis condimentum lobortis</p>
+						</div>
+					</div>
+					<div class="about__image">
+						<img src="img/about/image.svg" alt="image">
+					</div>
+				</div>
+			</section>
+			<section class="page__resent resent">
+				<div class="resent__container">
+					<h2 class="resent__title title title_small">My resent <span>works</span></h2>
+					<nav class="resent__button-navigator">
+						<button data-work-type="" class="resent__button-type button button_dark active">All</button>
+						<button data-work-type="ui" class="resent__button-type button button_dark">UI</button>
+						<button data-work-type="ux" class="resent__button-type button button_dark">UX</button>
+						<button data-work-type="wb" class="resent__button-type button button_dark">Web Design</button>
+					</nav>
+					<div class="resent__items items-resent">
+						<a data-work-type="ui" href="#" class="items-resent__item">
+							<div class="items-resent__image">
+								<img src="img/recent/01.png" alt="image">
+							</div>
+						</a>
+						<a data-work-type="ux" href="#" class="items-resent__item">
+							<div class="items-resent__image">
+								<img src="img/recent/02.png" alt="image">
+							</div>
+						</a>
+						<a data-work-type="wb" href="#" class="items-resent__item">
+							<div class="items-resent__image">
+								<img src="img/recent/03.png" alt="image">
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__contact contact">
+				<div class="contact__container">
+					<div class="contact__content">
+						<h2 class="contact__title title title_small">Got a project in <span>mind</span>?</h2>
+						<div class="contact__image">
+							<img src="img/contact/image.svg" alt="image">
+						</div>
+					</div>
+					<form action="#" class="contact__form form">
+						<div class="form__item">
+							<label for="o-1" class="form__label">Your name</label>
+							<input required type="text" class="form__input" placeholder="Name" name="name" id="o-1">
+						</div>
+						<div class="form__item">
+							<label for="o-2" class="form__label">Your email</label>
+							<input required type="email" class="form__input" placeholder="Email" name="email" id="o-2">
+						</div>
+						<div class="form__item">
+							<label for="o-3" class="form__label">Your Message</label>
+							<textarea class="form__input" placeholder="Message" name="message" id="o-3"></textarea>
+						</div>
+						<div class="form__item">
+							<button type="submit" class="form__button button">
+								<span>Send Message</span>
+							</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<nav class="footer__menu menu-footer">
+					<ul class="menu-footer__list">
+						<li class="menu-footer__item">
+							<a data-goto=".main" href="#" class="menu-footer__link menu-footer__link_home">Home</a>
+						</li>
+						<li class="menu-footer__item">
+							<a data-goto=".about" href="#" class="menu-footer__link menu-footer__link_about">About me</a>
+						</li>
+						<li class="menu-footer__item">
+							<a data-goto=".contact" href="#" class="menu-footer__link menu-footer__link_contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__social social">
+					<a href="#" class="social__link">
+						<img src="img/icons/facebook.svg" alt="facebook">
+					</a>
+					<a href="#" class="social__link">
+						<img src="img/icons/instagram.svg" alt="instagram">
+					</a>
+					<a href="#" class="social__link">
+						<img src="img/icons/twitter.svg" alt="twitter">
+					</a>
+					<a href="#" class="social__link">
+						<img src="img/icons/youtube.svg" alt="youtube">
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="javascript/script.js"></script>
+</body>
+</html>
